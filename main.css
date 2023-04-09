@@ -1,0 +1,96 @@
+body {
+    background: url(./assets/plants.jpeg) no-repeat fixed top center;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+header {
+    margin: 20px 35px;
+    padding: 5px 5px;
+    background-color: rgba(9, 47, 9, 0.723);
+    border: solid 2px rgb(227, 237, 224);
+    border-radius: 5;
+    height: 300px;
+}
+header h1 {
+    color: rgb(227, 237, 224);
+    font-size: 5em; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: auto;
+    text-shadow: 8px 12px, black; 
+}
+
+nav {
+    color: rgb(227, 237, 224);
+    text-align: center;
+    position: relative;
+}
+
+nav li {
+    display: inline;
+}
+
+.socials {
+    text-align: center;
+    background-color: rgba(47, 90, 62, 0.759);
+    border: solid 2px rgb(227, 237, 224);
+    height: 50px;
+    margin: 0 200px;
+}
+
+.socialIcon:hover {
+    background-color: rgba(141, 183, 141, 0.367);
+}
+
+section {
+    margin: 10px 45px;
+    padding: 1em 10em;
+    background-color: rgba(9, 47, 9, 0.723);
+    border: solid 2px rgb(227, 237, 224);
+    border-radius: 5px;
+    height: 750px;
+    color: rgba(227, 237, 224, 0.719);
+    font-family:'Times New Roman', Times, serif;
+}
+.guide {
+    text-align: center;
+    background-color: rgba(47, 90, 62, 0.759);
+    border: solid 2px rgb(227, 237, 224);
+    margin: 0;
+}
+
+nav li a {
+    color: rgb(227, 237, 224);
+    padding: 4em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgb(141, 183, 141);
+}
+
+p {
+    padding: 2em;
+}
+
+footer {
+    margin: 20px 35px;
+    padding: 5px 5px;
+    background-color: rgba(9, 47, 9, 0.723);
+    border: solid 2px rgb(227, 237, 224);
+    border-radius: 5;
+    height: 100px;
+    color: rgb(227, 237, 224);
+    text-decoration: none;
+    text-align: center;
+}
+
+.info {
+    color: rgb(227, 237, 224);
+    text-decoration: none;
+    border: solid 2px rgb(227, 237, 224);
+    background-color: rgba(47, 90, 62, 0.759);
+    margin: 10px 300px;
+}
