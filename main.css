@@ -8,18 +8,18 @@ body {
 header {
     margin: 20px 35px;
     padding: 5px 5px;
-    background-color: rgba(9, 47, 9, 0.723);
+    background-color: rgb(9, 47, 9);
     border: solid 2px rgb(227, 237, 224);
-    border-radius: 5;
+    border-radius: 5px;
     height: 300px;
 }
 header h1 {
     color: rgb(227, 237, 224);
-    font-size: 5em; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 7em; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     vertical-align: auto;
-    text-shadow: 8px 12px, black; 
+    text-shadow: 3px 3px rgb(143, 141, 141); 
 }
 
 nav {
@@ -36,8 +36,11 @@ nav li {
     text-align: center;
     background-color: rgba(47, 90, 62, 0.759);
     border: solid 2px rgb(227, 237, 224);
-    height: 50px;
-    margin: 0 200px;
+    border-radius: 5px;
+    height: 58px;
+    margin-top: -50px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .socialIcon:hover {
@@ -45,9 +48,9 @@ nav li {
 }
 
 section {
-    margin: 10px 45px;
-    padding: 1em 10em;
-    background-color: rgba(9, 47, 9, 0.723);
+    margin: 20px 35px;
+    padding: 5px 5px;
+    background-color: rgb(9, 47, 9);
     border: solid 2px rgb(227, 237, 224);
     border-radius: 5px;
     height: 750px;
@@ -55,15 +58,15 @@ section {
     font-family:'Times New Roman', Times, serif;
 }
 .guide {
-    text-align: center;
-    background-color: rgba(47, 90, 62, 0.759);
+    background-color: rgb(227, 237, 224);
     border: solid 2px rgb(227, 237, 224);
+    border-radius: 5px;
     margin: 0;
 }
 
 nav li a {
-    color: rgb(227, 237, 224);
-    padding: 4em;
+    color: rgb(24, 53, 15);
+    padding: 5em;
     text-decoration: none;
 }
 
@@ -71,16 +74,38 @@ nav li a:hover {
     color: rgb(141, 183, 141);
 }
 
+#guide1 {
+    text-align: left;
+    padding: 0 9em;
+
+}
+
+#guide2 {
+    text-align: center;
+    padding: 0 9em;
+}
+
+#guide3 {
+    text-align: right;
+    padding: 0 9em;
+}
+
+
 p {
     padding: 2em;
+}
+
+#wording {
+    text-align: center;
+    font-size: 1.25em;
 }
 
 footer {
     margin: 20px 35px;
     padding: 5px 5px;
-    background-color: rgba(9, 47, 9, 0.723);
+    background-color: rgb(9, 47, 9);
     border: solid 2px rgb(227, 237, 224);
-    border-radius: 5;
+    border-radius: 5px;
     height: 100px;
     color: rgb(227, 237, 224);
     text-decoration: none;
@@ -91,6 +116,15 @@ footer {
     color: rgb(227, 237, 224);
     text-decoration: none;
     border: solid 2px rgb(227, 237, 224);
+    border-radius: 5px;
     background-color: rgba(47, 90, 62, 0.759);
     margin: 10px 300px;
+}
+
+#pageFooter li a {
+    color: rgb(227, 237, 224);
+}
+
+#pageFooter li a:hover {
+    color: rgb(141, 183, 141);
 }
