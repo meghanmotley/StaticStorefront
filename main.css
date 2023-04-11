@@ -1,3 +1,5 @@
+/* Common elements */
+
 body {
     background: url(./assets/plants.jpeg) no-repeat fixed top center;
     margin: 0;
@@ -5,6 +7,8 @@ body {
     background-size: 100% 100%;
 }
 
+
+/* Header */
 header {
     margin: 20px 35px;
     padding: 5px 5px;
@@ -12,7 +16,8 @@ header {
     border: solid 2px rgb(227, 237, 224);
     border-radius: 5px;
     height: 300px;
-}
+} 
+
 header h1 {
     color: rgb(227, 237, 224);
     font-size: 7em; 
@@ -22,13 +27,10 @@ header h1 {
     text-shadow: 3px 3px rgb(143, 141, 141); 
 }
 
-nav {
-    color: rgb(227, 237, 224);
-    text-align: center;
-    position: relative;
-}
+/* Nav bars */
 
-nav li {
+/* Header nave */
+.socials li {
     display: inline;
 }
 
@@ -43,13 +45,79 @@ nav li {
     margin-left: 200px;
 }
 
+.socials li {
+    display: inline;
+}
+
+.socialIcon {
+    margin: 0 75px;
+}
+
 .socialIcon:hover {
     background-color: rgba(141, 183, 141, 0.367);
 }
 
+/* Main section nav */
+.guide {
+    background-color: rgb(227, 237, 224);
+    border: solid 2px rgb(227, 237, 224);
+    margin: 0;
+    padding: 40px;
+}
+
+.guide ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.guide li {
+    float: left;
+    width: 410px;
+    height: 25px;
+    background-color:rgb(227, 237, 224);
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+
+.guide ul li a{
+    text-decoration: none;
+    color:rgb(9, 47, 9);
+    display: block;
+}
+
+.guide ul li a:hover {
+    color:rgb(141, 183, 141)
+}
+
+.guide ul li ul li {
+    display: none;
+}
+
+.guide ul li:hover ul li {
+    display: block;
+}
+
+/* Footer Nav */
+.info li {
+    display: inline;
+}
+
+.info li a {
+    color: rgb(227, 237, 224);
+    margin: 150px;
+    text-decoration: none;
+}
+
+.info li a:hover {
+    color: rgb(141, 183, 141);
+}
+
+ /* Main section */
 section {
     margin: 20px 35px;
-    padding: 5px 5px;
+    padding: 0;
     background-color: rgb(9, 47, 9);
     border: solid 2px rgb(227, 237, 224);
     border-radius: 5px;
@@ -57,49 +125,14 @@ section {
     color: rgba(227, 237, 224, 0.719);
     font-family:'Times New Roman', Times, serif;
 }
-.guide {
-    background-color: rgb(227, 237, 224);
-    border: solid 2px rgb(227, 237, 224);
-    border-radius: 5px;
-    margin: 0;
-}
-
-nav li a {
-    color: rgb(24, 53, 15);
-    padding: 5em;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: rgb(141, 183, 141);
-}
-
-#guide1 {
-    text-align: left;
-    padding: 0 9em;
-
-}
-
-#guide2 {
-    text-align: center;
-    padding: 0 9em;
-}
-
-#guide3 {
-    text-align: right;
-    padding: 0 9em;
-}
-
 
 p {
     padding: 2em;
-}
-
-#wording {
     text-align: center;
     font-size: 1.25em;
 }
 
+/* Footer */
 footer {
     margin: 20px 35px;
     padding: 5px 5px;
@@ -121,10 +154,3 @@ footer {
     margin: 10px 300px;
 }
 
-#pageFooter li a {
-    color: rgb(227, 237, 224);
-}
-
-#pageFooter li a:hover {
-    color: rgb(141, 183, 141);
-}
