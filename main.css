@@ -7,6 +7,12 @@ body {
     background-size: 100% 100%;
 }
 
+.wrapper {      
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
 
 /* Header */
 header {
@@ -16,6 +22,7 @@ header {
     border: solid 2px rgb(227, 237, 224);
     border-radius: 5px;
     height: 300px;
+    position: relative;
 } 
 
 header h1 {
@@ -25,6 +32,7 @@ header h1 {
     text-align: center;
     vertical-align: auto;
     text-shadow: 3px 3px rgb(143, 141, 141); 
+    position: relative;
 }
 
 /* Nav bars */
@@ -32,6 +40,7 @@ header h1 {
 /* Header nav */
 .socials li {
     display: inline;
+    position: relative;
 }
 
 .socials {
@@ -51,6 +60,7 @@ header h1 {
 
 .socialIcon {
     margin: 0 75px;
+    position: relative;
 }
 
 .socialIcon:hover {
@@ -63,6 +73,7 @@ header h1 {
     border: solid 2px rgb(227, 237, 224);
     margin: 0;
     padding: 40px;
+    position: relative;
 }
 
 .guide ul {
